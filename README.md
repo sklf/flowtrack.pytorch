@@ -17,7 +17,12 @@ Pytorch implementation of [FlowTrack](https://arxiv.org/pdf/1804.06208.pdf).
 
 
 
-
+### Requirements
+```
+Python2.7
+Pytorch0.4.0
+```
+And for other requirements, you can refer to [pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn) and [pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn)
 ### Installation
 
 ```shell
@@ -54,6 +59,6 @@ python ./tools/detection/demo.py
 Download pretrained [flownet](https://drive.google.com/file/d/17d0x6q3FZZCfHMz7vND8E78WIZreqito/view?usp=sharing) into `models/flownet/`. Refer to [flownet2-pytorch](https://github.com/NVIDIA/flownet2-pytorch) for more information.
 
 ```shell
-python ./tools/flownet/demo.py --model </path/to/model>
+python ./tools/flownet/demo.py --model Flownet2S --resume </path/to/model>
 ```
 
